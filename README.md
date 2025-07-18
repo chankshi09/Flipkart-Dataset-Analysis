@@ -1,5 +1,3 @@
-# Flipkart-Dataset-Analysis
-
 # 📊 Flipkart Mobile Dataset Analysis & Power BI Dashboard
 
 This project provides an interactive and insightful Power BI dashboard built on mobile phone data from Flipkart. It focuses on understanding market trends, brand performance, product features, and pricing strategies.

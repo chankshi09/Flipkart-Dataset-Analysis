@@ -1,72 +1,110 @@
 # Flipkart-Dataset-Analysis
 
-📊 Flipkart Smartphone Analysis Dashboard
+# 📊 Flipkart Mobile Dataset Analysis & Power BI Dashboard
 
-This project showcases an interactive Power BI dashboard analyzing Flipkart smartphone listings. The aim is to help identify trends in sales, ratings, discounts, and brand performance based on customer interaction data.
+This project provides an interactive and insightful Power BI dashboard built on mobile phone data from Flipkart. It focuses on understanding market trends, brand performance, product features, and pricing strategies.
 
-📁 Dataset Overview
-The data was collected in Excel format and consists of key smartphone attributes, including:
+---
 
-Name – Product title
-Brand – Manufacturer brand
-Ratings – Average user rating
-No_of_ratings – Number of user ratings
-No_of_reviews – Number of user reviews
-Product_features – Key technical specs
-MSP – Market Selling Price
-MRP – Maximum Retail Price
-Discount – Percentage discount applied
+## 📁 Project Overview
 
-🧹 Data Preparation in Power BI
-Performed using Power Query:
+**Objective:**
+To analyze mobile sales data from Flipkart and visualize key metrics including ratings, reviews, discounts, and price ranges across different brands and models.
 
-Removed duplicate entries
-Converted rating/review fields to numeric types
-Cleaned pricing (e.g., removed commas)
-Extracted discount metrics
-Parsed and simplified product features
+**Tools Used:**
 
-📐 Key DAX Measures Used
-Total Sales = MSP × No_of_ratings
-Average Discount %
-Average Ratings
-Total No. of Mobiles
-Top Brands by Rating / Review / Discount / Sales
-Brand and mobile-wise slicers
+* **Power BI** for visualization
+* **Excel/CSV** for data preprocessing
+* **Flipkart dataset** with columns like:
 
-📊 Power BI Dashboard
-The final dashboard includes:
+  * `Name`
+  * `Brand`
+  * `Ratings`
+  * `No_of_ratings`
+  * `No_of_reviews`
+  * `Product_features`
+  * `MSP` (Market Selling Price)
+  * `MRP` (Maximum Retail Price)
+  * `Discount`
 
-Total KPIs (Sales, Mobiles, Ratings, Brands)
+---
 
-Top 5 brands and mobiles by:
+## 📌 Key Insights
 
-Ratings
-Reviews
-Discounts
-Brand market shares (Pie Charts)
+### 🔢 KPI Highlights
 
-Price and rating distribution
+* 📱 **536** Total Mobiles
+* 🏷️ **28** Unique Brands
+* 🌟 **4.28** Average Ratings
+* 💬 **51.27K** Average No. of Ratings
+* 🎯 **2M+** Average Discount Amount
+* 💵 **10M** Total Sales (approx.)
 
-Interactive Brand and Mobile filters
+### 📊 Dashboard Visuals
 
-🔻 Dashboard Preview:
-Flipkart Power BI Dashboard
+1. **Top Brands by Number of Ratings**
 
-💡 Key Insights
-10M+ Total Sales tracked through user interactions
-realme, Redmi, and POCO dominate customer engagement
-Redmi leads in reviews and number of ratings
-POCO C31 has one of the highest discounts and strong performance
-Higher rated phones often fall in the ₹7,000 – ₹13,000 range
+   * REDMI, SAMSUNG, Vivo, Xiaomi, Tecno lead the market in engagement.
+2. **Top Mobiles by Reviews & Ratings**
 
-🚀 How to Run This Project
-Clone the repo or download the files
-Open the .pbix file in Power BI Desktop
-(Optional) Load Excel data if not embedded
-Explore using slicers and charts
+   * Xiaomi and Vivo dominate both review counts and rating averages.
+3. **Top Mobiles & Brands by Discount**
 
-📬 Contact
-Made by Aishwarya Burde 🔗 www.linkedin.com/in/aishwarya-burde | ✉️ aishwaryaburde2000@gmail.com
+   * Vivo Y75 and Tecno models have higher average discounts.
+4. **Price Range Distribution**
 
-Would you like help packaging this into a ready-to-upload GitHub structure (README.md, image file, and folders)?
+   * Most mobiles are priced:
+
+     * 10K–20K ➡️ 256 models
+     * Below 10K ➡️ 176 models
+     * 20K–40K ➡️ 59 models
+     * 40K+ ➡️ 45 models
+
+### 📌 Popular Products Example
+
+| Mobile Name      | Brand  | Ratings | No. of Ratings | MSP     | MRP     | Discount |
+| ---------------- | ------ | ------- | -------------- | ------- | ------- | -------- |
+| realme 9i (64GB) | Realme | 4.5     | 1,11,865       | ₹10,999 | ₹15,999 | 31%      |
+| POCO C31         | POCO   | 4.3     | 1,78,186       | ₹7,499  | ₹11,999 | 37%      |
+| iPhone 13        | Apple  | 4.7     | 1,74,464       | ₹61,999 | ₹69,900 | 11%      |
+
+---
+
+## 📂 Files Included
+
+* `Flipkart_Mobile_Dataset.csv` – Cleaned dataset used for dashboard
+* `Flipkart_Dashboard.pbix` – Power BI file
+* `Flipkart Dashboard.png` – Dashboard image for quick reference
+
+---
+
+## 📌 Use Cases
+
+* 💼 **Business Intelligence**: Understand pricing & sales trends
+* 📈 **Marketing Teams**: Analyze top-rated and discounted products
+* 🧠 **Data Science Projects**: Practice data wrangling and visualization
+
+---
+
+## 📷 Dashboard Preview
+
+![Flipkart Dashboard](Flipkart%20Dashboard.png)
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download this repository
+2. Open `Flipkart_Dashboard.pbix` in Power BI Desktop
+3. Explore insights or add more visuals as needed
+
+---
+
+## 🙌 Acknowledgements
+
+Data inspired from **Flipkart Mobile Listings** for academic and learning purposes.
+
+---
+
+Let me know if you'd like a version with downloadable files or if you want the README in **Markdown (.md)** format for GitHub upload.
+

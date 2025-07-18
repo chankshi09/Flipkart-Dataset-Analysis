@@ -104,5 +104,9 @@ Data inspired from **Flipkart Mobile Listings** for academic and learning purpos
 
 ---
 
+📬 Contact
+
+Made by Chankshi Shrawankar 🔗 www.linkedin.com/in/chankshishrawankar | ✉️ aishwaryaburde2000@gmail.com
+
 Let me know if you'd like a version with downloadable files or if you want the README in **Markdown (.md)** format for GitHub upload.
 
